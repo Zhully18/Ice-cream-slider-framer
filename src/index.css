@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.content_container{
+  display: flex;
+  padding: 90px;
+  height: 80vh;
+  color: #fff;
+}
+.content_left, .content_right{
+  max-width: 50%;
+  justify-content: center;
+}
+.content_left{
+  padding: 80px;
+  margin-top: 2rem;
+}
+.content_left h2{
+  font-size: 50px;
+}
+.content_left p{
+  font-size: 18px;
+  margin-top: 20px;
+}
+.content_left .cta_button{
+  padding: 1rem 3rem;
+  margin-top: 20px;
+  border: none;
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  border-radius: 30px;
+}
+.content_left .slider{
+  margin-top: 7rem;
+  display: flex;
+  gap: 15px;
+}
+.slider .arrow{
+  font-size: 2rem;
+  color: #fff;
+}
+.content_right{
+  position: relative;
+}
+.content_right img{
+  margin-top: -40px;
+  width: 550px;
+  height: 650px;
+}
